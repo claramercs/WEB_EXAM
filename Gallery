@@ -1,0 +1,141 @@
+<html>
+<head>
+<style>
+
+    body{
+        background-color: lightgray;
+        margin-top: 20px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+div.gallery{
+     border: 10px solid gray;
+    border-radius: 10px;
+}
+div.gallery img {
+  width: 100%;
+  height: 300px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 5px;
+  float: left;
+  width: 33%;
+}
+
+
+ul{
+    text-align: center;
+
+}
+h1{
+color: black;
+font-size: 50px;
+letter-spacing: 10px;
+ text-align: center;
+ margin-bottom: 50px;
+ font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h4{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+        </style>
+    </head>
+    <body>
+        
+            <h1>GALLERY</h1>
+         
+<h4>(Documents)</h4>
+  
+
+
+<div class="responsive">
+    <div class="gallery">
+        <img src="c:\Users\clari\OneDrive\Documents\Exam\doc1.png" alt="doc1" width="600" height="400">
+      </a>
+    </div>
+  </div>
+  
+  
+  <div class="responsive">
+    <div class="gallery">
+        <img src="c:\Users\clari\OneDrive\Documents\Exam\doc2.jpg" alt="doc2" width="600" height="400">
+      </a>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+        <img src="c:\Users\clari\OneDrive\Documents\Exam\doc3.jpg" alt="doc3" width="600" height="400">
+      </a>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+        <img src="c:\Users\clari\OneDrive\Documents\Exam\doc4.jpg" alt="doc4" width="600" height="400">
+      </a>
+    </div>
+  </div>
+  
+  
+  <div class="responsive">
+      <div class="gallery">
+          <img src="c:\Users\clari\OneDrive\Documents\Exam\doc5.jpg" alt="doc5" width="600" height="400">
+        </a>
+      </div>
+    </div>
+  
+    
+  <div class="responsive">
+      <div class="gallery">
+          <img src="c:\Users\clari\OneDrive\Documents\Exam\doc6.jpg" alt="doc6" width="600" height="400">
+        </a>
+      </div>
+    </div>
+  
+    
+  <div class="responsive">
+      <div class="gallery">
+          <img src="c:\Users\clari\OneDrive\Documents\Exam\doc8.png" alt="doc7" width="600" height="400">
+        </a>
+      </div>
+    </div>
+  
+    
+  <div class="responsive">
+      <div class="gallery">
+          <img src="c:\Users\clari\Pictures\Screenshots\Screenshot 2024-03-21 205921.png" alt="doc8" width="600" height="400">
+        </a>  
+      </div>
+    </div>
+  
+    <div class="responsive">
+        <div class="gallery">
+            <img src="c:\Users\clari\OneDrive\Documents\Exam\doc9.jpg" alt="doc9" width="600" height="400">
+          </a>  
+        </div>
+      </div>
+
+  </body>
+  </html>
